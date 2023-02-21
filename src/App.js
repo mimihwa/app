@@ -18,6 +18,7 @@ function App() {
             <Route path='movies' element={<Movies />}/>
             <Route path='users' element={<Users />}/>
           </Routes>
+          <Home />
           <Footer/>
       </div>
     )
